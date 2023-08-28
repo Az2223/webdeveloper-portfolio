@@ -77,12 +77,16 @@ width: 500px;
     margin-top: 20px;
 }
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section style  */
 .about{
     padding: 130px;
     border-radius:10px;
-    background-color: white;
+    background-color:#FFF8F3;
     margin: 130px 0;
 }
 .section-title{
@@ -95,4 +99,20 @@ width: 500px;
     color:#757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-containner{display: flex;
+    align-items: center;
+    justify-content: space-around; 
+   
+}
+.about-info{
+    text-align: center;
+    margin:161px 60px;
+    
+}
+.info-description{
+font-weight: bold;
+}
+.info-title{
+    font-weight: normal;
 }
