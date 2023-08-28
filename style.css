@@ -8,8 +8,8 @@ body{
 nav{
     display:flex;
     align-items: center;
-    justify-content: space-between;
-     
+    justify-content: space-between; 
+    margin: 0px 200px;
 }
 .nav.title{
     color: #181818;
@@ -41,4 +41,16 @@ nav a{
     font-weight: 700;
     padding: 15px 35px;
 
+}
+/* /*header style */
+.header{
+    background-color: #fff8f3;
+}
+.baner{
+    padding:30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+}
+.baner .profile{
+width: 500px;
 }
